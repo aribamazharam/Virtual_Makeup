@@ -1,4 +1,4 @@
-# Virtual Makeup
+# Real-time Virtual Makeup using Mediapipe
 ## Overview
 
 This project applies virtual makeup to facial images or real-time video using Mediapipe and OpenCV. The makeup effects include applying lipstick, eyeliner, eyeshadow, and enhancing eyebrows. The project detects facial landmarks using Mediapipe and creates a mask to apply the desired makeup colors on the face.
