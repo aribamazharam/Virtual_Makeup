@@ -17,13 +17,13 @@ python image.py --img sample/face.png
 
 # Introduction
 
-In this project Mediapipe [1] facial landmarks and opencv is used to add makeup on facial features.
+In this project Mediapipe facial landmarks and opencv is used to add makeup on facial features.
 - Mediapipe facial landmark library detects the face in the image and returns 478 landmarks on human face. (x,y) coordinates of each points is obtained w.r.t the image size.
 
 <p align="center">
 
   <br>
-  <b>Media pipe facial landmarks example [2]</b>
+  <b>Media pipe facial landmarks</b>
 </p>
 
 - From all the facial landmarks, extract Lips, Eyebrow, Eyeliner & Eyeshadow points and create a colored mask with respect to the input image.
@@ -37,7 +37,7 @@ In this project Mediapipe [1] facial landmarks and opencv is used to add makeup 
 
 <p align="center">
   <br>
-  <b>Original image and Transformed Image with Makeup [3]</b>
+  <b>Original image and Transformed Image with Makeup</b>
 </p>
 
 - Virtual Makeup on video.
@@ -45,7 +45,7 @@ In this project Mediapipe [1] facial landmarks and opencv is used to add makeup 
 <p align="center">
   <a href="sample/output_video.mp4">
       <br>
-    <b>Virtal makeup on video [4]</b>
+    <b>Virtal makeup on video</b>
   </a>
   
 </p>
